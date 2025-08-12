@@ -1,96 +1,90 @@
-# Openly Risk & Claims Analytics Framework
+
+# Openly Agent Onboarding & Risk Insights Suite
 
 ## 📌 Project Overview
-This repository is a **data-driven demonstration** of how Openly could enhance its **financial risk analysis**, **loss reserving**, and **claims efficiency** through modern analytics, predictive modeling, and interactive dashboards.
 
-The project is directly inspired by Openly’s **Financial (Risk) Analyst** role and addresses key responsibilities outlined in the job description:
-- Loss reserving analysis and modeling
-- Risk horizon tracking and benchmarking
-- Predictive analytics for claim delays
-- Stochastic modeling for capital and liquidity planning
-- Support for BCAR and S&P ERM accreditation
+This open-source repository demonstrates a **data-driven, end-to-end analytics platform** designed to help Openly unlock its next phase of sustainable, agent-led growth. Beyond standard financial risk and reserving dashboards, this project delivers **agent onboarding funnel analysis**—a tool to measure, benchmark, and accelerate how quickly new independent agents become productive, supporting Openly’s mission to empower agents with modern technology and insight.
+
+This suite directly supports Openly’s **Financial Risk Analyst** function, while also solving a critical, under-addressed challenge: ensuring every agent who joins can quickly and confidently serve customers, driving both retention and growth.
 
 ---
 
-## 🚩 Key Business Challenges Addressed
+## 🚩 Unique Business Challenge Addressed
 
-1. **Accurate Loss Reserving**  
-   Without precise reserve estimates, insurers risk under- or over-reserving, impacting profitability and solvency metrics.
+**Agent Onboarding & Productivity**  
+Openly’s rapid expansion relies on the success of independent agents. Yet, even the most innovative insurtechs can miss critical friction points in the agent journey—delays in training, low early conversion rates, and silent bottlenecks that slow growth.  
+This project **tracks agent onboarding speed, identifies process bottlenecks, benchmarks new vs. veteran agent performance, and flags agents at risk of slow ramp-up**. By surfacing and resolving these issues, Openly can accelerate agent time-to-value and boost regional expansion.
 
-2. **Emerging Risk Identification**  
-   Market conditions, catastrophe exposure, or regional claim trends may not be detected early enough to act.
-
-3. **Claims Delay Management**  
-   Delayed claims settlements can damage customer satisfaction, affect liquidity, and trigger regulatory or ratings risk.
-
-4. **Capital Adequacy Stress Testing**  
-   Fluctuations in claims severity or frequency can impact BCAR and ERM ratings if not modeled and planned for proactively.
+**Included standard risk and claims modules** (see below) ensure you also comply with core reserving, loss, and regulatory needs.
 
 ---
 
 ## 💡 Why This Matters to Openly
-As an **agent-first, tech-enabled** insurer, Openly thrives when it can:
-- Provide **fast, fair claims** while preserving capital adequacy  
-- Detect and mitigate **emerging risks early**  
-- Build a **risk-aware culture** supported by actionable analytics  
 
-This framework demonstrates exactly how Openly could operationalize these principles using **Python**, **Power BI**, and **data science best practices**.
+- **Empower every agent from day one:**  
+  Smooth, rapid onboarding maximizes each agent’s contribution—directly lifting policy conversions and customer NPS.
+- **Find & fix hidden bottlenecks:**  
+  Visualize where agents get stuck in training, quoting, and policy binding—and intervene faster.
+- **Benchmark for continuous improvement:**  
+  Compare new cohorts to veterans, and track onboarding KPIs by region, office, or partner.
+- **Align with Openly’s values:**  
+  Demonstrate transparency, urgency, and empathy by giving agents and leadership the insights they need to excel.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Power BI** – Interactive, visual analytics dashboards for financial and claims KPIs  
-- **Python (Pandas, NumPy, scikit-learn)** – Data cleaning, modeling, and Monte Carlo simulations  
-- **Matplotlib / Seaborn** – Data visualizations  
-- **Jupyter Notebook** – Reproducible workflows  
-- **Mock/Public Data** – Simulated data for agents, claims, and loss triangles  
+- **Power BI** – Interactive, visual analytics dashboards for agent, risk, and reserving KPIs
+- **Python (Pandas, NumPy, scikit-learn)** – Data cleaning, modeling, and predictive analytics
+- **Matplotlib / Seaborn** – Data visualizations
+- **Jupyter Notebook** – Reproducible workflows
+- **Mock/Public Data** – Simulated agent onboarding, claims, loss triangles
 
 ---
 
 ## 📊 Core Features
 
-### 1. Loss Reserving Model  
-- Uses **Chain-Ladder** method on mock loss triangle data  
-- Estimates Incurred But Not Reported (IBNR) reserves  
-- Produces reserve adequacy KPIs for dashboard display  
+### 1. Agent Onboarding Analytics
+- **Onboarding Funnel:** Track time from agent sign-up to first quote, first bound policy, and early conversion rates.
+- **Bottleneck Detection:** Heatmaps and journey maps show where agents slow down in training, quoting, or binding.
+- **Cohort Benchmarking:** Compare new agents’ performance (claims, delays, NPS) to veterans—by region, office, and product.
+- **Predictive Insights:** Flag agents at risk of slow or unsuccessful onboarding for proactive support.
 
-### 2. Risk Horizon Dashboard  
-- Interactive Power BI dashboard visualizing:  
-  - Loss ratio trends by region/product line  
-  - Geographic and product risk heatmaps  
-  - Key solvency and liquidity ratios  
+### 2. Loss Reserving & Risk Benchmarking
+- **Chain-Ladder Model:** Estimate IBNR (Incurred But Not Reported) reserves using Python or Excel.
+- **Risk Heatmaps:** Visualize loss ratios, claim trends, and emerging risks by region, product, and agent.
+- **Regulatory Readiness:** Support BCAR, S&P ERM, and stress testing with transparent, auditable analytics.
 
-### 3. Claims Delay Prediction  
-- **Random Forest Classifier** predicts claims likely to be delayed or escalated  
-- Features include claim type, amount, agent performance, and region risk factors  
-- Output integrated into risk dashboard as red/yellow/green flags  
+### 3. Claims Delay Prediction
+- **Random Forest/XGBoost Model:** Predict which claims are likely to be delayed—by claim type, region, agent, or policy.
+- **Actionable Flags:** Integrate delay risk scores into dashboards for real-time intervention.
 
-### 4. Capital Adequacy Stress Test  
-- Monte Carlo simulation of catastrophe loss scenarios  
-- Shows effect on solvency ratios & mock BCAR score  
-- Allows “what-if” exploration for strategic planning  
+### 4. Capital Adequacy Stress Testing
+- **Monte Carlo Simulation:** Model catastrophe scenarios, visualizing solvency and liquidity impacts.
+- **Strategic Planning:** Enable “what-if” exploration for leadership and finance teams.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-openly-risk-analytics-framework/
+openly-agent-onboarding-insights/
 │
 ├── data/
 │   ├── agents.csv
+│   ├── onboarding_logs.csv
 │   ├── claims.csv
 │   ├── loss_triangle.csv
 │   └── data_dictionary.md
 │
 ├── notebooks/
+│   ├── agent_onboarding_analysis.ipynb
 │   ├── claims_delay_model.ipynb
 │   ├── loss_reserving_simulation.ipynb
 │   └── capital_stress_test.ipynb
 │
 ├── dashboard/
-│   ├── openly_risk_dashboard.pbix
+│   ├── openly_insights_dashboard.pbix
 │   ├── screenshots/
 │   └── dashboard_export.pdf
 │
@@ -109,36 +103,47 @@ openly-risk-analytics-framework/
 
 ### 1️⃣ View Dashboards
 - Install **[Power BI Desktop](https://powerbi.microsoft.com/desktop/)**  
-- Open `dashboard/openly_risk_dashboard.pbix`  
-- Or view exported PDF in `/dashboard/screenshots/`
+- Open `dashboard/openly_insights_dashboard.pbix`  
+- Or view exported PDF/screenshots in `/dashboard/`
 
 ### 2️⃣ Run Python Models
 ```
 pip install -r requirements.txt
+jupyter notebook notebooks/agent_onboarding_analysis.ipynb
 jupyter notebook notebooks/claims_delay_model.ipynb
 jupyter notebook notebooks/loss_reserving_simulation.ipynb
 jupyter notebook notebooks/capital_stress_test.ipynb
 ```
 
 ### 3️⃣ Explore Data
-- All mock/public datasets are in `/data/` with a `data_dictionary.md` explaining each field.
+- All datasets and dictionaries are in `/data/`
+- Adjust mock data to match your real-world agent and claims journey
 
 ---
 
-## 📈 Potential Extensions
-- Integrate with **Openly’s live data pipelines** for daily insights  
-- Expand to **multi-line insurance portfolios**  
-- Add **agent behavior and customer sentiment analysis**  
-- Automate KPI email reports to stakeholders  
+## 📈 Extensions
+
+- **Live Data Integration:** Connect to Openly’s agent management and claims systems for daily insights.
+- **Multi-Line Expansion:** Add commercial, auto, or other product lines to the analytics suite.
+- **Automated Reporting:** Build scheduled email alerts and executive summaries.
+- **Customer & Agent Sentiment:** Incorporate survey or support ticket data for a 360° view.
 
 ---
 
 ## 📞 Contact
+
 **Rahul Ambaragonda**  
 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-ambaragonda)  
 📧 rahul.analytics0@gmail.com  
 
 ---
 
-> ⚠ **Disclaimer:** This is a demonstration project using simulated and public datasets.  
-> All numbers and scenarios are illustrative only.
+> ⚠ **Disclaimer:** This project uses simulated and public datasets for demonstration. All insights are illustrative.
+
+---
+
+**This is more than a risk tool—it’s a growth engine for Openly’s agent community and business.**
+
+```
+
+***
