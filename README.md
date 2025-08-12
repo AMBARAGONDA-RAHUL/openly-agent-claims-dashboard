@@ -144,6 +144,3 @@ jupyter notebook notebooks/capital_stress_test.ipynb
 
 **This is more than a risk tool—it’s a growth engine for Openly’s agent community and business.**
 
-```
-
-***
