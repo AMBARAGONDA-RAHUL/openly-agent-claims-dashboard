@@ -142,4 +142,3 @@ jupyter notebook notebooks/capital_stress_test.ipynb
 
 > ⚠ **Disclaimer:** This is a demonstration project using simulated and public datasets.  
 > All numbers and scenarios are illustrative only.
-```
