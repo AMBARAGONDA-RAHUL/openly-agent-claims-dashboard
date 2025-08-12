@@ -3,7 +3,7 @@
 
 ## 📌 Project Overview
 
-This open-source repository demonstrates a **data-driven, end-to-end analytics platform** designed to help Openly unlock its next phase of sustainable, agent-led growth. Beyond standard financial risk and reserving dashboards, this project delivers **agent onboarding funnel analysis**—a tool to measure, benchmark, and accelerate how quickly new independent agents become productive, supporting Openly’s mission to empower agents with modern technology and insight.
+This open-source repository demonstrates a **data-driven, end-to-end analytics platform** designed to help Openly unlock its next phase of sustainable, agent-led growth. Beyond standard financial risk and reserving dashboards, this project delivers **agent onboarding funnel analysis** a tool to measure, benchmark, and accelerate how quickly new independent agents become productive, supporting Openly’s mission to empower agents with modern technology and insight.
 
 This suite directly supports Openly’s **Financial Risk Analyst** function, while also solving a critical, under-addressed challenge: ensuring every agent who joins can quickly and confidently serve customers, driving both retention and growth.
 
