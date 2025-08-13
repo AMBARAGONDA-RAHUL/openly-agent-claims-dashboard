@@ -16,12 +16,12 @@ By integrating agent onboarding funnels, claims efficiency tracking, and growth 
 
 ## 📊 Core Features
 
-### **Financial Risk & Reserving (JD Focus)**
+### **Financial Risk & Reserving**
 - **Loss Reserving**: Chain-ladder and IBNR modeling—auditable, reproducible, and ready for regulatory review.
 - **Risk Benchmarking**: Real-time dashboards for solvency ratios, regional/product risk heatmaps, and emerging risk detection.
 - **Capital Adequacy & Stress Testing**: Monte Carlo simulation for catastrophe planning, BCAR/S&P ERM support, and “what-if” scenario analysis.
 
-### **Business & Agent Analytics (Value-Add)**
+### **Business & Agent Analytics**
 - **Agent Onboarding Funnel**: Track time from signup to first quote, first policy, and early conversion—identify bottlenecks and accelerate agent ramp-up.
 - **Retention & Cohort Benchmarking**: Compare new vs. veteran agent performance, flag retention risks, and empower data-driven talent investment.
 - **Claims Efficiency**: Predict and flag claims likely to be delayed, improving service speed and cash flow.
