@@ -96,15 +96,6 @@ Open notebooks for reserving, risk, capital stress, agent, and claims analytics.
 
 ---
 
-## 📈 Further Steps
-
-- **Integrate with Openly’s live data**: Replace mock CSVs with direct database or API connections for real-time analytics.
-- **Expand to new products/regions**: Adapt data schema and dashboards for commercial, auto, or multi-state portfolios.
-- **Automate reporting**: Schedule email/Slack alerts for emerging risks, onboarding delays, or reserve triggers.
-- **Add customer/agent sentiment**: Incorporate survey or support ticket data for a 360° view of risk and growth.
-
----
-
 ## 🛠️ Disclaimer
 
 This project uses **simulated and public datasets** for demonstration. All numbers and scenarios are illustrative.
