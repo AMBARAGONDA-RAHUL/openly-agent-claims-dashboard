@@ -1,1 +1,8 @@
-
+agent_id,agent_name,region,onboarding_date,license_type,performance_score,target_growth
+A001,Alice Smith,Northeast,2023-01-01,Full,8.7,0.15
+A002,Bob Jones,Southeast,2023-02-01,Full,7.5,0.10
+A003,Carol White,West,2023-03-01,Limited,8.2,0.20
+A004,David Brown,Southwest,2023-04-01,Full,9.0,0.12
+A005,Eve Lee,Midwest,2023-05-01,General,7.8,0.18
+...
+[A050,Zara Lane,Northwest,2023-12-15,Limited,9.2,0.18]  # ...and so on to 50+
