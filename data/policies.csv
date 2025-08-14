@@ -1,0 +1,8 @@
+policy_id,agent_id,region,policy_value,premium,coverage_type,claim_frequency,avg_claim_severity,reinsurance_coverage,inception_date,expiry_date
+P001,A001,Northeast,500000,5000,Property,0.05,0.10,0.30,2024-01-01,2025-01-01
+P002,A002,Southeast,750000,6000,Property,0.06,0.12,0.25,2024-01-15,2024-12-15
+P003,A003,West,300000,3000,Property,0.04,0.08,0.40,2024-02-01,2024-12-01
+P004,A004,Southwest,200000,2000,Property,0.03,0.05,0.20,2024-02-15,2024-12-15
+P005,A005,Midwest,600000,5500,Auto,0.04,0.08,0.35,2024-01-10,2024-12-10
+...
+[P150,A050,Northwest,400000,4000,Health,0.07,0.12,0.30,2024-01-05,2024-12-05]  # ...and so on to 150+
