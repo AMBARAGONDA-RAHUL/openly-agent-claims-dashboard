@@ -49,5 +49,3 @@ E047,Wildfire,Rockies,2024-08-05,6.3,Alpine fire
 E048,Earthquake,Southcentral,2024-09-01,5.8,Moderate shaking
 E049,Flood,South,2024-06-30,5.5,Urban drainage issues
 E050,Freeze,Midwest,2024-11-30,6.5,Late-season crop damage
-
-This CSV, once pasted into a file named **disaster_events.csv** in your `data/` folder, will give you **50 diverse catastrophe events** with realistic event types (hurricanes, wildfires, earthquakes, floods, tornadoes, freezes), regions, dates, severities (on a 1–10 scale), and descriptive notes. This will work seamlessly with your catastrophe impact simulator.
