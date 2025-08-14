@@ -1,0 +1,8 @@
+agent_id  policies_affected  avg_performance_score event_type     region
+0     A001                  1                    8.7  Hurricane  Northeast
+1     A009                  1                    7.6  Hurricane  Northeast
+2     A017                  1                    7.4  Hurricane  Northeast
+3     A025                  1                    7.9  Hurricane  Northeast
+4     A033                  1                    9.0  Hurricane  Northeast
+5     A041                  1                    8.4  Hurricane  Northeast
+6     A049                  1                    7.9  Hurricane  Northeast
