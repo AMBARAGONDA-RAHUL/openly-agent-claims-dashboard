@@ -176,6 +176,3 @@ This project uses **simulated and public datasets** for demonstration purposes. 
 Reach out via GitHub Issues or direct message.
 
 ---
-
-**Deliver transparency. Power growth. Build resilience.**
-```
