@@ -1,0 +1,8 @@
+event_id,event_type,region,date,severity,notes
+E001,Hurricane,Northeast,2024-08-15,8.0,Major coastal impact
+E002,Wildfire,West,2024-07-20,7.0,Urban-forest interface
+E003,Earthquake,West,2024-09-10,9.0,Major structural damage
+E004,Flood,Southeast,2024-06-05,5.0,Flash floods
+E005,Tornado,Southwest,2024-05-15,6.5,Residential damage
+...
+[E050,Freeze,Midwest,2024-11-30,6.5,Late-season crop damage]  # ...and so on to 50+
