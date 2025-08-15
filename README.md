@@ -1,7 +1,5 @@
 # 🏦 Openly Real-Time Catastrophe Impact Simulator
 
-**Professional-grade, open-source analytics for insurance risk, solvency, and agent growth.**
-
 ---
 
 ## 📖 Table of Contents
