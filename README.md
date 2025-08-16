@@ -26,12 +26,13 @@
 The **Openly Real-Time Catastrophe Impact Simulator** is an open-source analytics platform designed for insurance risk managers, actuaries, and finance teams.  
 It empowers proactive catastrophe impact modeling, exposure benchmarking, and real-time solvency stress-testing—critical for regulatory compliance, capital planning, and agent-driven business growth.
 
-![Image](https://github.com/user-attachments/assets/1b28b200-4c3d-4819-a34d-ce3e851fe4cc)
 
 **Core objectives:**
 - **Transparent** and **reproducible** catastrophe event simulations.
 - **Agent-level exposure analytics** for granular risk management.
 - **Integrated dashboards** for executive and operational decision-making.
+- 
+![Image](https://github.com/user-attachments/assets/1b28b200-4c3d-4819-a34d-ce3e851fe4cc)
 
 ---
 
