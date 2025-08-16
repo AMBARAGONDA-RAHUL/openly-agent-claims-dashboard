@@ -31,7 +31,7 @@ It empowers proactive catastrophe impact modeling, exposure benchmarking, and re
 - **Transparent** and **reproducible** catastrophe event simulations.
 - **Agent-level exposure analytics** for granular risk management.
 - **Integrated dashboards** for executive and operational decision-making.
-- 
+  
 ![Image](https://github.com/user-attachments/assets/1b28b200-4c3d-4819-a34d-ce3e851fe4cc)
 
 ---
